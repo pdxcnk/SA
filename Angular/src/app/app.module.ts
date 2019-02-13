@@ -51,7 +51,7 @@ const appRoutes: Routes = [
     {path:'', redirectTo:'/Login', pathMatch: 'full'},
     
     {path:'Login',component:LoginComponent},
-    {path:'purchaseoder',component:PurchaseoderComponent},.
+    {path:'purchaseoder',component:PurchaseoderComponent},
 
    
 ];
