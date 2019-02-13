@@ -1,0 +1,26 @@
+ <div style = "text-align:center">
+        <h2>เข้าสู่ระบบ</h2>
+ </div> 
+
+
+<div class="container">
+	เข้าสู่ระบบในฐานะ : เจ้าหน้าที่คลินิก <br><br>
+	<mat-card>
+			<mat-card-content align="center">
+                <mat-form-field class="example-full-width">
+                Username : <br><br>
+                        <input matInput placeholder="" [(ngModel)]="ClinicStaff.nameStaff" name="nameStaff">
+                </mat-form-field>
+        	</mat-card-content>
+        	<mat-card-content align="center">
+        		<mat-form-field class="example-full-width">
+                Password :<br><br>
+                        <input matInput placeholder="" type="password" [(ngModel)]="ClinicStaff.password"  name="password">
+                </mat-form-field>
+            </mat-card-content>
+            <br>
+        	<mat-card-actions align="center">
+                    <button mat-raised-button color="primary"  (click)="login()" type="submit">login</button>
+            </mat-card-actions>
+	</mat-card>
+</div>
